@@ -30,7 +30,7 @@ class bottomViewController: UIViewController {
         let gesture = UIPanGestureRecognizer.init(target: self, action: #selector(bottomViewController.panGesture))
         view.addGestureRecognizer(gesture)
 
-        // Do any additional setup after loading the view.
+        
     }
     
     @objc func panGesture(recognizer: UIPanGestureRecognizer){
